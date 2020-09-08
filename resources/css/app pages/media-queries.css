@@ -1,0 +1,133 @@
+/* ----- large devices (desktops, 700px and up)  ----- */
+@media only screen and (min-width: 700px) {
+  #mobile-nav {
+    display: none !important;
+  }
+  #mobile-content {
+    display: none !important;
+  }
+  #mobile-form {
+    display: none !important;
+  }
+}
+
+/* ----- small devices (phones, 700px and down)  ----- */
+@media only screen and (max-width: 700px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+  /* ----- Text ----- */
+  h2 {
+    font-size: 150%;
+  }
+  h4 {
+    font-size: 120%;
+  }
+  /* ----- NAVBAR ----- */
+  .navbar-brand img {
+    width: 90px !important;
+  }
+  .navbar-item {
+    text-align: justify;
+  }
+  .navbar-logo {
+    padding-right: 1% !important;
+  }
+  /* ----- LOGIN ----- */
+  .login-input {
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+  }
+  .login-row {
+    padding-top: 50% !important;
+  }
+  .login-col {
+    padding-left: 7% !important;
+    padding-right: 7% !important;
+  }
+  /* ----- New Member ----- */
+  .newMember-row {
+    padding-top: 35% !important;
+  }
+  .newMember-img {
+    padding-top: 12% !important;
+  }
+  /* ----- CONTACT ----- */
+  .contact-img {
+    padding-left: 2% !important;
+    padding-top: 0% !important;
+  }
+  .contact-box {
+    padding-right: 4% !important;
+  }
+  .contact-text {
+    text-align: right !important;
+  }
+  .contact-header {
+    padding-top: 17% !important;
+  }
+  .content-contact {
+    padding: 28% 10% !important;
+  }
+  .contact-form {
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+  }
+  /* ----- New Building ----- */
+  .newBuilding-header {
+    padding-top: 35% !important;
+  }
+  .newBuilding-form {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  /* ----- SIDEBAR----- */
+  #desktop-nav {
+    display: none !important;
+  }
+  #desktop-sidebar {
+    display: none !important;
+  }
+  /* ----- CONTENT ----- */
+  #desktop-content {
+    display: none !important;
+  }
+  #desktop-form {
+    display: none !important;
+  }
+  div.content {
+    margin-right: 0px !important;
+    padding: 1% !important;
+  }
+  .content-header {
+    text-align: center !important;
+    padding-right: 0% !important;
+  }
+  .addnew-btn {
+    padding-right: 17% !important;
+    padding-top: 2% !important;
+    padding-bottom: 1% !important;
+  }
+  .content-box {
+    padding: 4% 1% 1% 1% !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+  .contentbox-item {
+    padding: 0% !important;
+  }
+  .contentbox-icon {
+    display: none !important;
+  }
+  .contentbox-tumaan {
+    display: none !important;
+  }
+  .contentbox-pay {
+    float: right !important;
+  }
+  .content-border {
+    border: none !important;
+    padding-bottom: 0% !important;
+  }
+}
